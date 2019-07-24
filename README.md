@@ -16,8 +16,11 @@ Gracias a la información obtenida, nos damos cuenta que el 66.7% de nuestras en
 
 De acuerdo a los resultados anteriores, nace "Journey Money", una web app que les ayudará a conocer en qué estas gastando, llevar un registro tipo "diario personal" y asi, ofrecer una educación financiera básica, ofreciendo tips y conceptos fáciles de entender.
 
-Desarrollo de user persona.
+User persona / historia de usuario.
  ![user-persona](...)
+ Laura  tiene 28 años y es una estudiante de Laboratoria. Se ha preocupado por su situación económica en el Bootcamp, ya que vive sola y dejó su trabajo para estudiar estos 6 meses. Laura se ha preguntado ¿Cómo podría tener un control de sus gastos, para que su dinero le alcance hasta finalizar su Bootcamp? 
+Ya que no cuenta con otros ingresos más que los ahorros que junto antes de ingresar. Laura está consciente de que algunos de sus gastos mensuales;  sabe que sus mayores gastos están en el alquiler donde vive y la comida que consume. Se ha planteado algunas metas de ahorro pero no sabe cómo hacerlo; piensa que si llegara a conocer sus gastos podría cumplir su meta de ahorro. 
+![imagen-historia-usuario](...)
 
 
 
