@@ -1,3 +1,72 @@
+Web app -> "Journey Money" <-
+ 
+ ¿Porqué nos cuesta tanto ahorrar sí es tan fácil gastar?
+ Todos hablan sobre la importancia de crear un presupuesto  personal, sin embargo, llevar ese control y hacerlo un hábito no es tan sencillo. 
+
+ En el ámbito financiero, carecemos de información, incluso, desconocemos términos "básicos" como: qué es un ingreso, qué es un gasto, qué es un egreso, etc. y si nos basamos, por ejemplo, en el artículo publicado por El Economista, nos menciona que: "aunque la mayor parte de las personas tiene una buena cultura general en tópicos referentes a futbol, en el ámbito de las finanzas personales carecen de conocimientos sobre algunos conceptos básicos." A pesar de esto, las mujeres seguimos abriendo brecha también en el uso de apps financieras. Estamos demostrando mas compromiso y mayor interés en la administración de nuestros gastos, y por supuesto, de adquirir mayores conocimientos, en los que el bootcamp de Laboratoria hace fuerte presencia, ya que esta transformando el ámbito tecnológico femenino. 
+ 
+ Con las chicas de Laboratoria, hemos realizado una encuesta para saber qué tanto conocen sobre sus gastos, utilizando la herramienta de google para hacer encuentas, con el objetivo de obtener informacion valiosa para desarrollar una web app que les ayude a este conocimiento.
+
+Gracias a la información obtenida, nos damos cuenta que el 66.7% de nuestras encuestadas, están concientes de que tienen gastos, pero solamente un 16% lleva un registro de los mismos. Igualmente, un 41% le gustaría levar sus gastos mensualmente, semanal y diario, ya que uno de sus mayores gastos son en renta y comida.
+
+
+ aqui van las imagenes.
+
+
+Gracias a los resultdos anteriores, nace "Journey Money", una web app que les ayudará a conocer en qué estas gastando, llevar un registro tipo "diario personal" y asi, ofrecer una educación financiera básica, ofreciendo tips y conceptos fáciles de entender.
+
+
+
+
+
+
+
+
+
+
+Fuentes.
+[El Economista](https://www.eleconomista.com.mx/finanzaspersonales/Mexicanos-saben-mas-de-futbol-que-sobre-finanzas-personales-20180619-0136.html)
+
+[idc Online mx](https://idconline.mx/finanzas/2019/04/11/apps-financieras-famosas-entre-las-mujeres)
+
+---------------------------
+
+
+
+
+
+
+
+---------------------------------------------------
+
+
+
+
+
+La mayor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # "Hackathon" de final de _Common Core_, Salud Financiera
 
 ## Índice
