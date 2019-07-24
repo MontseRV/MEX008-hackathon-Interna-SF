@@ -26,7 +26,7 @@ Ya que no cuenta con otros ingresos más que los ahorros que junto antes de ingr
 
 
 PLANING 1 sprint - El trabajo se dividió en tres: realizar investigación y definir producto (Silvia), desarrollar user persona e historia de usuario (Teresa) y prototipo (Rebeca y Montserrat).
-![planing] (...)
+![planing] (https://github.com/silviatrinidad/MEX008-hackathon-Interna-SF/blob/branch-silvia/img-readme/tablero-act.png)
 
 
 Fuentes consultadas.
