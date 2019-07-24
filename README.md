@@ -16,7 +16,8 @@ Gracias a la información obtenida, nos damos cuenta que el 66.7% de nuestras en
 
 De acuerdo a los resultados anteriores, nace "Journey Money", una web app que les ayudará a conocer en qué estas gastando, llevar un registro tipo "diario personal" y asi, ofrecer una educación financiera básica, ofreciendo tips y conceptos fáciles de entender.
 
-Desarrollo de User persona.
+Desarrollo de user persona.
+ ![user-persona](...)
 
 
 
