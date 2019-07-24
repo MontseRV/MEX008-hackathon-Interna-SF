@@ -10,10 +10,14 @@ Web app -> "Journey Money" <-
 Gracias a la información obtenida, nos damos cuenta que el 66.7% de nuestras encuestadas, están concientes de que tienen gastos, pero solamente un 16% lleva un registro de los mismos. Igualmente, un 41% le gustaría levar sus gastos mensualmente, semanal y diario, ya que uno de sus mayores gastos son en renta y comida.
 
 
- aqui van las imagenes.
+ ![encuesta-parte-uno](https://github.com/MontseRV/MEX008-hackathon-Interna-SF/blob/master/img-readme/form-1.png)
+ ![encuesta-parte-dos](https://github.com/MontseRV/MEX008-hackathon-Interna-SF/blob/master/img-readme/form-2.png)
 
 
-Gracias a los resultdos anteriores, nace "Journey Money", una web app que les ayudará a conocer en qué estas gastando, llevar un registro tipo "diario personal" y asi, ofrecer una educación financiera básica, ofreciendo tips y conceptos fáciles de entender.
+De acuerdo a los resultados anteriores, nace "Journey Money", una web app que les ayudará a conocer en qué estas gastando, llevar un registro tipo "diario personal" y asi, ofrecer una educación financiera básica, ofreciendo tips y conceptos fáciles de entender.
+
+Desarrollo de User persona.
+
 
 
 
@@ -25,9 +29,8 @@ Gracias a los resultdos anteriores, nace "Journey Money", una web app que les ay
 
 
 Fuentes.
-[El Economista](https://www.eleconomista.com.mx/finanzaspersonales/Mexicanos-saben-mas-de-futbol-que-sobre-finanzas-personales-20180619-0136.html)
-
-[idc Online mx](https://idconline.mx/finanzas/2019/04/11/apps-financieras-famosas-entre-las-mujeres)
+[El Economista](https://www.eleconomista.com.mx/finanzaspersonales/Mexicanos-saben-mas-de-futbol-que-sobre-finanzas-personales-20180619-0136.html) "Mexicanos saben mas de futbol que sobre finanzas personales",
+[idc Online mx](https://idconline.mx/finanzas/2019/04/11/apps-financieras-famosas-entre-las-mujeres) "Apps financieras famosas entre mujeres".
 
 ---------------------------
 
@@ -38,25 +41,6 @@ Fuentes.
 
 
 ---------------------------------------------------
-
-
-
-
-
-La mayor
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
