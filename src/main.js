@@ -1,3 +1,44 @@
+//Mostrar fecha
+//Creando array para los meses y dias
+const month = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio",
+"Julio","Agosto", "Septiembre","Octubre","Noviembre","Diciembre");
+
+const days= new Array ("Domingo", "Lunes", "Martes","Miércoles", "Jueves",
+"Viernes", "Sábado", "Domingo");
+
+const f= new Date(); //"Date" es un constructor
+//imprimiendo fecha 
+const viewData = `<div>
+                        ${days[f.getDay()]}
+                        ${f.getDate()}
+                        ${month[f.getMonth()]}
+                        ${f.getFullYear()} </div>`;
+
+const date= document.getElementById('date').innerHTML= viewData;
+
+/*INICIO DE SESION PANTALLA BIENVENIDA*/
+//llamando inputs nombre y contraseña
+btnEnter= document.getElementById('entrar').addEventListener('click',()=> {
+        localStorage.nombre = document.getElementById('nombre').value;
+        localStorage.password = document.getElementById('password').value;
+});
+//imprimir contenido guardado
+const verRegistro= document.getElementById('ver-registro');
+const verDatos= () => {
+    if ((localStorage.nombre != undefined) && (localStorage.password != undefined)) {
+        verRegistro.innerHTML= `<div> ¡Hola!, ${localStorage.nombre}</div>`;
+    } else {
+        alert("error");
+    }
+
+};
+verRegistro.addEventListener('click',verDatos());
+
+
+/*const btnCerrarSesion= document.getElementById('cerrar-sesion');
+btnCerrarSesion.addEventListener('click', localStorage.clear
+});*/
+
 /*  Declaracion de variables */
 let inputIncome= document.getElementById("input-income");
 let rentExpense= document.getElementById("rent");

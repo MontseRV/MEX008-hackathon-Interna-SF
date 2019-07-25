@@ -4,6 +4,9 @@
     background: #BFD8D2;
     font-family: Helvetica, sans-serif;
 }
+.ocultar {
+    display: none;
+}
 .header{
     background: #FEDCD2;
     font-size: 18pt;
