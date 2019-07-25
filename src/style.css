@@ -1,8 +1,12 @@
 *{
     margin:0;
     padding:0;
-    background: #BFD8D2;
+  /*   background: #BFD8D2; */
     font-family: Helvetica, sans-serif;
+}
+
+body{
+    background: #BFD8D2;
 }
 .header{
     background: #FEDCD2;
@@ -43,9 +47,9 @@
 }
 
 .register{
-    border: solid 2px green;
+   
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
   /*   background-image: url('/images/ibrahim-rifath-OApHds2yEGQ-unsplash.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -88,20 +92,20 @@
     padding: 10px;
 }
 
-.expenses{
+/* .expenses{
     border: solid 2px  brown;
-}
+} */
 
-.daily-expenses{
+/* .daily-expenses{
     border: solid 2px  gold;
-    background-color: aqua;
-}
+   
+} *//* 
 .weekly-expenses{
     border: solid 2px green ;
 }
 .monthly-expenses{
     border: solid 2px pink;
-}
+} */
 .expense-card-month{
     background-color:#FEDCD2;
     margin: 20px;

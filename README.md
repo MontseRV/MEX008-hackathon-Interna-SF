@@ -29,6 +29,29 @@ PLANING 1 sprint - El trabajo se dividió en tres: realizar investigación y def
 ![planing](https://github.com/silviatrinidad/MEX008-hackathon-Interna-SF/blob/branch-silvia/img-readme/tablero-act.png)
 
 
+Modelo de negocioPara Journey Money  es muy importante que nuestros usuarios cumplan con sus objetivos de ahorro por eso en nuestra sección de ahorro les proponemos sugerencias de :
+   • Una suscripción de paga: donde encontrara presupuestos prediseñados para un control más completo . Con un tutorial guíado para un mejor uso.
+    ![imagen-presupuesto] (https://github.com/MontseRV/MEX008-hackathon-Interna-SF/blob/master/img-readme/ejemplo-presupuesto.png)
+   • Te aparecerá una pantalla donde podrás ingresar tu ingreso  y escoger si es por día, por semana o mes; para que aparezcan en la siguiente pantalla como ingresos netos.
+   • En nuestra pantalla principal se encuentran los ingresos netos, tus gastos totales y  el saldo con el que cuentas.
+     También la fecha del día y cuatro  secciones donde ingresaras tus movimientos por:
+            - Día
+            -Semana
+            -Mes
+   • Puedes escoger alguna de estas  tres primeras secciones y llenarlo de acuerdo a tus gastos, ejemplo:
+                        DÍA                    -Café       $15
+                    -Coca       $15
+                    -Taxi       $25
+                    Total       $55    En la sección de ahorro  se te desplegara un apartado donde puedes escoger la cantidad que has     decidido ahorra.¡Listo ahora puedes tener todo tus registros guardados para ver en que se te gastas  tu dinero y comenzar a ahorra!
+imecaf.comimecaf.com
+Curso de Finanzas Personales | Cursos Financieros
+Curso de Finanzas Personales - Aprende a realizar el análisis y diagnóstico de tu situación financiera actual, y a crear una filosofía de ahorro e inversión. ¡Inscríbete ya!
+bbva.mxbbva.mx
+Ahorro | BBVA México
+Comienza a ahorrar tu dinero de forma segura con BBVA. Descubre los productos que tenemos para ti según tus necesidades de ahorro.
+
+
+
 Fuentes consultadas.
 [El Economista](https://www.eleconomista.com.mx/finanzaspersonales/Mexicanos-saben-mas-de-futbol-que-sobre-finanzas-personales-20180619-0136.html) "Mexicanos saben mas de futbol que sobre finanzas personales",
 [idc Online mx](https://idconline.mx/finanzas/2019/04/11/apps-financieras-famosas-entre-las-mujeres) "Apps financieras famosas entre mujeres".
