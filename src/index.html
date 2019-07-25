@@ -23,27 +23,31 @@
           <option value="weekly">Semanal</option>
           <option value="monthly">Mensual</option>
         </select>
-        <button id="button-send">Enviar</button>
+        <button id="button-send" class="button-style">Enviar</button>
     </div>
      <!-- Pantalla Principal -->
      <div class="main">
         <!-- Encabezado   -->
-          <header class="header"><img src="/images/icons8-folleto-encuadernado-en-espiral-48.png" alt="Diario"><p>Journey Money</p> </header>
+        <header class="header"><img src="/images/icons8-folleto-encuadernado-en-espiral-48.png" alt="Diario">Journey Money</header>
         <!-- Seccion de  Ingreso , Gasto y Saldo -->
-          <div class="income-and-salary">
-            <div> <p>Ingreso Neto : </p> <p id="show-income"></p>  </div>
-            <div><p class="expense">Gasto Total</p></div>
-            <div><p class="balance">Saldo</p></div>
-          </div>
-          <div class="date"><p>Aqui va la fecha</p></div>
+        <div id="first-part">  
+        <div class="income-and-salary">
+            <div class="movimientos1"> <p>Ingreso Neto : </p> <p id="show-income"></p>  </div>
+            <div class="movimientos2"><p class="expense">Gasto Total</p></div>
+            <div class="movimientos3"><p class="balance">Saldo</p></div>
+            <div class="date"><p>Aqui va la fecha</p></div>
+        </div>
+          
         <!-- Secion de Gastos -->
           <div class="button-expenses">
-            <button class="button-expenses-month">Gastos mensuales</button>
-            <button class="button-expenses-week">Gastos semanales</button>
-            <button class="button-expenses-day">Gastos Diarios</button> 
-            <button class="button-savings">Ahorros</button> 
+            <button class="button-expenses-month button-style" id="month-button">Gastos mensuales</button>
+            <button class="button-expenses-week button-style"id="week-button">Gastos semanales</button>
+            <button class="button-expenses-day button-style" id="day-button">Gastos Diarios</button> 
+            <button class="button-savings button-style" id="saving-button">Ahorros</button> 
           </div>
+        </div>
          <!--  Gastos Mensuales -->
+         <div id="month-section" class="desaparecer">
           <section class="monthly-expenses">
             <h2>Mensuales</h2>
             <div class="expense-card-month">
@@ -74,8 +78,10 @@
               <button id="button-other-1">Añadir</button>
               <p id="show-other"></p>
             </div>
-          </section>  
+          </section>
+        </div>  
           <!-- Gastos Semanales -->
+          <div id="week-section" class="desaparecer">
           <section class="weekly-expenses">
             <h2>Semanales</h2>
             <div class="expense-card-week">
@@ -100,8 +106,10 @@
                 <p id="show-other-week"></p>
             </div>
           </section>
+          </div>
           <!--   Gastos Diarios -->
-          <section class="daily-expenses">
+          <div id="day-section" class="desaparecer">
+          <section class="daily-expenses" >
             <h2>Diarios</h2>
             <p>Papitas</p><input id="one" type="text">
             <p id="show-other-week"></p>
@@ -112,7 +120,9 @@
             <p >Otro</p><input id="other" type="text">
             <p id="show-other-week"></p>
           </section>
+          </div>
           <!--     Ahorros -->
+          <div id="saving-section" class="desaparecer">
           <section class="savings">
             <div class="card-savings">
                 <h2>Ahorros</h2>  
@@ -123,6 +133,7 @@
                 <button id="button-saving">Ahorrar</button>
             </div>
           </section>
+          </div>
       </div>
   <script src="main.js"></script>
  </body>   
