@@ -35,8 +35,9 @@ const verDatos= () => {
 verRegistro.addEventListener('click',verDatos());
 
 
-const btnCerrarSesion= document.getElementById('cerrar-sesion');
-btnCerrarSesion.addEventListener('click', localStorage.clear());
+/*const btnCerrarSesion= document.getElementById('cerrar-sesion');
+btnCerrarSesion.addEventListener('click', localStorage.clear
+});*/
 
 /*  Declaracion de variables */
 let inputIncome= document.getElementById("input-income");
