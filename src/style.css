@@ -7,6 +7,10 @@
 
 body{
     background: #BFD8D2;
+  
+.ocultar {
+    display: none;
+
 }
 .header{
     background: #FEDCD2;
