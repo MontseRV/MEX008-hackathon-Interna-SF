@@ -91,6 +91,10 @@ buttonGrocery.addEventListener('click',showGrocery);
 buttonTransport.addEventListener('click',showTransport); 
 buttonSaving.addEventListener('click',showSavings);
 /* Llamada a la funcion show para que siempre se ejecute */
+<<<<<<< HEAD
 show();
 
 /*Chicas falta agregar las demas funciones que son iguales solo es cambiarle por los id correspondientes*/ 
+=======
+show();
+>>>>>>> e05afe14ed479ddb406bef4289a2919cac9b1872

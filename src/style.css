@@ -17,7 +17,11 @@
 }
 .main{
     width: 100vw;
+<<<<<<< HEAD
    
+=======
+
+>>>>>>> e05afe14ed479ddb406bef4289a2919cac9b1872
 }
 .income-and-salary{
     border: solid 2px blue;
@@ -48,6 +52,10 @@
 .expense-card-week{
     background-color:#DCB239;
     margin: 20px;
+<<<<<<< HEAD
 }
 
 /* Agregue algunas imagenes por si las quieren ocupar en la version desktop */
+=======
+}
+>>>>>>> e05afe14ed479ddb406bef4289a2919cac9b1872
