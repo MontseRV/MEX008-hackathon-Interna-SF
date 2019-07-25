@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tu layout se mostrará correctamente a una escala de 1:1 Ningún zoom será aplicado-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--vista de compatibilidad permite al usuario o al navegador establecer el modo de compatibilidad-->
+    <link rel="icon" type="image/img" href="./img/pokebola2.png">
+    <!--rel="icon" es para crear un favicon-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Journey Money</title>
+  </head>
+  <body>
+      <!-- Pantalla de Registro -->
+    <div class="register">
+        <p>
+            ¡Hola! 
+            Para ayudarte con tus metas ,te pedimos los datos de tus ingresos.
+        </p>
+        Ingresos<input class="input-income-1"type="text">
+        <select name="" id="">
+          <option value="volvo">Diario</option>
+          <option value="saab">Semanal</option>
+          <option value="mercedes">Mensual</option>
+        </select>
+        <button>
+            Siguiente
+        </button>
+    </div>
+    <!-- Pantalla Principal -->
+    <div class="main">
+    <!-- Encabezado   -->
+      <header class="header"><img src="images/icons8-folleto-encuadernado-en-espiral-48.png" alt="Diario"><p>Journey Money</p> </header>
+    <!-- Seccion de  Ingreso , Gasto y Saldo -->
+      <div class="income-and-salary">
+        <div>Ingreso Neto<input class="income"type="text"></div>
+        <div><p class="expense">Gasto Total</p></div>
+        <div><p class="balance">Saldo</p></div>
+      </div>
+      <div class="date" id="date"> La fecha de hoy es: </div>
+    <!-- Secion de Gastos -->
+      <div class="expenses">
+        <button class="button-expenses-month">Gastos mensuales</button>
+        <button class="button-expenses-week">Gastos semanales</button>
+        <button class="button-expenses-day">Gastos Diarios</button> 
+        <button class="button-savings">Ahorros</button> 
+      </div>
+     <!--  Gastos Mensuales -->
+      <section class="monthly-expenses">
+        <h2>Mensuales</h2>
+        <div class="expense-card-month">
+          <img class="image-expenses" src="images/icons8-hipoteca-50.png" >
+          <p>Renta</p>
+          <input class="rent" type="text">
+        </div>
+        <div class="expense-card-month">
+          <img class="image-expenses" src="images/icons8-agua-50.png" >
+          <p> Agua</p>
+          <input class="water" type="text">
+        </div>
+        <div class="expense-card-month">
+          <img class="image-expenses" src="images/icons8-luz-encendida-50.png" >
+          <p> Luz</p>
+          <input class="light" type="text">
+        </div>
+        <div class="expense-card-month">
+          <img class="image-expenses" src="images/icons8-añadir-columna-50.png" >
+          <p> Otro</p>
+          <input class="other-daily" type="text">
+        </div>
+      </section>  
+      <!-- Gastos Semanales -->
+      <section class="weekly-expenses">
+        <h2>Semanales</h2>
+        <div class="expense-card-week">
+            <img class="image-expenses" src="images/icons8-carrito-de-la-compra-cargado-64.png" >
+            <p>Despensa</p>
+            <input class="grocery" type="text">
+        </div>
+        <div class="expense-card-week">
+            <img class="image-expenses" src="images/icons8-coche-50.png" >
+            <p> Transporte</p>
+            <input class="transport" type="text">
+        </div>
+        <div class="expense-card-week">
+            <img class="image-expenses" src="images/icons8-añadir-columna-50.png" >
+            <p> Otro</p>
+            <input class="other-week" type="text">
+        </div>
+      </section>
+      <!--   Gastos Diarios -->
+      <section class="daily-expenses">
+        <h2>Diarios</h2>
+        <p>Papitas</p><input class="one" type="text">
+        <p >Cafe</p><input class="two" type="text">
+        <p >Coca-Cola</p><input class="three" type="text">
+        <p >Otro</p><input class="other" type="text">
+      </section>
+      <!--     Ahorros -->
+      <section class="savings">
+        <div class="card-savings">
+            <h2>Ahorros</h2>
+            <h3>Ahorro Total</h3>
+            <p>Aqui va el contandor</p>
+            <img src="images/icons8-cerdo-64.png" alt="">
+            <input class="input-saving" placeholder="Ingrese la cantidad" type="text">
+            <button class="button-saving">Ahorrar</button>
+        </div>
+      </section>
+  </div>
+  <script src="app.js"></script>
+ </body>   
+</html>
+
