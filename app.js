@@ -12,6 +12,6 @@ const viewData = `<div>
                         ${month[f.getMonth()]}
                         ${f.getFullYear()} </div>`;
 
-const date= document.getElementById('date').innerHTML=viewData;
+const date= document.getElementById('date').innerHTML= viewData;
 
 
