@@ -1,13 +1,31 @@
 *{
     margin:0;
     padding:0;
+    background: #BFD8D2;
+    font-family: Helvetica, sans-serif;
 }
 .ocultar {
     display: none;
 }
 .header{
-    border: solid 2px red;
+    background: #FEDCD2;
+    font-size: 18pt;
+    color: #DF744A;
 }
+
+.header img{
+    background: #FEDCD2;
+}
+
+.button-style{
+    background:#FEDCD2;
+    color: #DF744A;
+    padding: 10px;
+    margin:5px;
+    border: none;
+    border-radius: 5px;
+}
+
 .register{
     border: solid 2px green;
     width: 100vw;
@@ -23,11 +41,37 @@
 
 }
 .income-and-salary{
-    border: solid 2px blue;
+    display:grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: repeat(2,auto);
 }
-.date{
-    border: solid 2px yellow;
+
+.movimientos1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 5px;
 }
+
+.movimientos2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 5px;
+}
+
+.movimientos3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin: 5px;
+}
+
+.income-and-salary .date p{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: #DF744A;
+    background: #BFD8D2;
+    padding: 10px;
+}
+
 .expenses{
     border: solid 2px  brown;
 }
@@ -51,4 +95,8 @@
 .expense-card-week{
     background-color:#DCB239;
     margin: 20px;
+}
+
+.desaparecer{
+    display:none;
 }

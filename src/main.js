@@ -133,3 +133,49 @@ buttonTransport.addEventListener('click',showTransport);
 buttonSaving.addEventListener('click',showSavings);
 /* Llamada a la funcion show para que siempre se ejecute */
 show();
+
+// Ocultar y mostrar secciones de gastos y ahorros
+
+const firstPart = document.getElementById("first-part");
+const monthSection =document.getElementById("month-section");
+const weekSection=document.getElementById("week-section");
+const daySection =document.getElementById("day-section");
+const savingSection=document.getElementById("saving-section");
+const buttonMonth =document.getElementById("month-button");
+const buttonWeek= document.getElementById("week-button");
+const buttonDay =document.getElementById("day-button")
+const buttonSSaving=document.getElementById("saving-button")
+
+const showMonth = () =>{
+    monthSection.classList.remove("desaparecer");
+    weekSection.classList.add("desaparecer");
+    daySection.classList.add("desaparecer");
+    savingSection.classList.add("desaparecer");
+}
+
+const showWeek= () =>{
+    weekSection.classList.remove("desaparecer");
+    monthSection.classList.add("desaparecer");
+    daySection.classList.add("desaparecer");
+    savingSection.classList.add("desaparecer");
+}
+
+const showDay =() =>{
+    daySection.classList.remove("desaparecer");
+    monthSection.classList.add("desaparecer");
+    weekSection.classList.add("desaparecer");
+    savingSection.classList.add("desaparecer");
+}
+
+const showSSavings =() =>{
+    savingSection.classList.remove("desaparecer");
+    monthSection.classList.add("desaparecer");
+    weekSection.classList.add("desaparecer");
+    daySection.classList.add("desaparecer");
+}
+
+buttonMonth.addEventListener("click", showMonth);
+buttonWeek.addEventListener("click", showWeek);
+buttonDay.addEventListener("click", showDay);
+buttonSSaving.addEventListener("click", showSSavings);
+
