@@ -12,6 +12,8 @@
 
 .header img{
     background: #FEDCD2;
+    height: 50px;
+    width: auto;
 }
 
 .button-style{
@@ -21,6 +23,23 @@
     margin:5px;
     border: none;
     border-radius: 5px;
+}
+
+.button-style2{
+    background:#DCB239;
+    color: #DF744A;
+    padding: 10px;
+    margin:5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.monthly-expenses img{
+    background:#FEDCD2;
+}
+
+.monthly-expenses input{
+    background:#FEDCD2;
 }
 
 .register{
