@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    border: solid 2px red;
+}
+.register{
+    border: solid 2px green;
+    width: 100vw;
+    height: 100vh;
+  /*   background-image: url('/images/ibrahim-rifath-OApHds2yEGQ-unsplash.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 
+ */
+}
+.main{
+    width: 100vw;
+   
+}
+.income-and-salary{
+    border: solid 2px blue;
+}
+.date{
+    border: solid 2px yellow;
+}
+.expenses{
+    border: solid 2px  brown;
+}
+
+.daily-expenses{
+    border: solid 2px  gold;
+    background-color: aqua;
+}
+.weekly-expenses{
+    border: solid 2px green ;
+}
+.monthly-expenses{
+    border: solid 2px pink;
+}
+.expense-card-month{
+    background-color:#FEDCD2;
+    margin: 20px;
+    width: 60%;
+}
+
+.expense-card-week{
+    background-color:#DCB239;
+    margin: 20px;
+}
+
+/* Agregue algunas imagenes por si las quieren ocupar en la version desktop */
