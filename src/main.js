@@ -16,6 +16,28 @@ const viewData = `<div>
 
 const date= document.getElementById('date').innerHTML= viewData;
 
+/*INICIO DE SESION PANTALLA BIENVENIDA*/
+//llamando inputs nombre y contraseña
+btnEnter= document.getElementById('entrar').addEventListener('click',()=> {
+        localStorage.nombre = document.getElementById('nombre').value;
+        localStorage.password = document.getElementById('password').value;
+});
+//imprimir contenido guardado
+const verRegistro= document.getElementById('ver-registro');
+const verDatos= () => {
+    if ((localStorage.nombre != undefined) && (localStorage.password != undefined)) {
+        verRegistro.innerHTML= `<div> ¡Hola!, ${localStorage.nombre}</div>`;
+    } else {
+        alert("error");
+    }
+
+};
+verRegistro.addEventListener('click',verDatos());
+
+
+const btnCerrarSesion= document.getElementById('cerrar-sesion');
+btnCerrarSesion.addEventListener('click', localStorage.clear());
+
 /*  Declaracion de variables */
 let inputIncome= document.getElementById("input-income");
 let rentExpense= document.getElementById("rent");

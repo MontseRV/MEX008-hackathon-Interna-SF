@@ -13,9 +13,23 @@
   </head>
   <body>
       <!-- Pantalla de Registro -->
+      <div class="box-session">
+          <h1 id="title-init">BIENVENIDA A JOURNEY MONEY</h1>
+          <h3 id="subtitle-init">Por favor, inicia sesión:</h3>
+          <br>
+          <label for="nombre">Nombre:</label> <input type="text" id="nombre"/>
+    <br>
+    <label for="nombre">Contraseña:</label> <input type="password" id="password"/>
+    <br>
+    <input type="button" id="entrar" value="entrar"/>
+    <br>
+      </div>
     <!-- Pantalla de Registro -->
+  
+    
     <div class="register">
-        <h2>¡Hola!</h2>
+        <!--<h2>¡Hola!</h2>-->
+        <div id="ver-registro"></div>
         <p class="paragraph-welcome">Para ayudarte con tus metas ,te pedimos los datos de tus ingresos.</p>
         <input id="input-income"type="text">
         <select name="" id="">
@@ -24,6 +38,7 @@
           <option value="monthly">Mensual</option>
         </select>
         <button id="button-send">Enviar</button>
+        <button id="cerrar-sesion">Cerrar Sesión</button>
     </div>
      <!-- Pantalla Principal -->
      <div class="main">
